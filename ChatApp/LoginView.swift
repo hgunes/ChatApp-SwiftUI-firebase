@@ -13,11 +13,6 @@ struct LoginView: View {
     @State var isLoginMode = false
     @State var email = ""
     @State var password = ""
-    
-    init() {
-        FirebaseApp.configure()
-    }
-
 
     var body: some View {
         
@@ -89,7 +84,7 @@ struct LoginView: View {
     
     
     private func createNewAccount() {
-        Auth.auth().createUser(withEmail: email, password: password) { result, error in
+        FirebaseManager.shared.auth.createUser(withEmail: email, password: password) { result, error in
             if let err = error {
                 self.loginStatusMessage = "Failed to signup: \(err)"
                 print(loginStatusMessage)
@@ -103,7 +98,7 @@ struct LoginView: View {
     
     
     private func loginUser() {
-        Auth.auth().signIn(withEmail: email, password: password) { res, err in
+        FirebaseManager.shared.auth.signIn(withEmail: email, password: password) { res, err in
             if let err = err {
                 self.loginStatusMessage = "Failed to login: \(err)"
                 print(loginStatusMessage)
