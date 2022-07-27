@@ -15,6 +15,7 @@
 		BEC177582890765000873B36 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BEC177572890765000873B36 /* FirebaseStorage */; };
 		BEC1775A2890778B00873B36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC177592890778B00873B36 /* GoogleService-Info.plist */; };
 		BEC1775C2890840500873B36 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC1775B2890840500873B36 /* FirebaseManager.swift */; };
+		BEC1775E2891C04300873B36 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC1775D2891C04300873B36 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		BEC1774D288F20AD00873B36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BEC177592890778B00873B36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BEC1775B2890840500873B36 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		BEC1775D2891C04300873B36 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BEC17748288F20A700873B36 /* LoginView.swift */,
 				BEC177592890778B00873B36 /* GoogleService-Info.plist */,
 				BEC1774A288F20AD00873B36 /* Assets.xcassets */,
+				BEC1775D2891C04300873B36 /* ImagePicker.swift */,
 				BEC1774C288F20AD00873B36 /* Preview Content */,
 				BEC1775B2890840500873B36 /* FirebaseManager.swift */,
 			);
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC1775C2890840500873B36 /* FirebaseManager.swift in Sources */,
+				BEC1775E2891C04300873B36 /* ImagePicker.swift in Sources */,
 				BEC17749288F20A700873B36 /* LoginView.swift in Sources */,
 				BEC17747288F20A700873B36 /* ChatAppApp.swift in Sources */,
 			);

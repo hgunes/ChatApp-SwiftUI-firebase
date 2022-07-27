@@ -1,8 +1,8 @@
 //
 //  ImagePicker.swift
-//  PokeChatDemoXcode12_3
+//  ChatApp
 //
-//  Created by Brian Voong on 10/25/21.
+//  Created by Harun Gunes on 27/07/2022.
 //
 
 import SwiftUI
